@@ -54,8 +54,8 @@ Inicialmente en el prototipado se consideró un menú lateral y se consideraron 
 * La página de inicio: En la barra del menú con las opciones Inicio, Cifrado, Tutorial y un inicio de sesión.
 * La ventana del cifrado: Se consideró colocar por defecto 3 opciones para el ingreso del texto a cifrar (16, 24 y 32 caracteres).
 
-![primer boceto a mano](Images - README/inicio-primera pestaña.jpeg)
-![primer boceto a mano](Images - README/inicio-segunda pestaña.jpeg)
+![primer boceto a mano](Images-README/inicio-primera pestaña.jpeg)
+![primer boceto a mano](Images-README/inicio-segunda pestaña.jpeg)
 
 ### Segunda propuesta
 
@@ -85,13 +85,13 @@ En el último sprint, se ejecutaron los test, se solucionaron algunos errores y 
 
 En la primera ejecusión del test, se evidenció que las funciones son correctas en el código; sin embargo, hubieron errores sobre el TypeError en el método decode y por ende al realizar la prueba del cifrado en ambos métodos (encode y decode).
 
-![Primera ejecusión del test] (Images - README/1er_test.png)
+![Primera ejecusión del test] (Images-README/1er_test.png)
 
 ### Segunda ejecusión del test.
 
 En la segunda ejecusión del test, se logró solucionar el método encode y decode, lo que ocurrió fue que no se estaba escribiendo correctamente los parámetros del método. Inicialmente se escribió **encode: (string,offset)** y **decode: (string,offset)** pero en los test tenían un orden diferente, así que se cambió por **encode: (offset,string)** y **decode: (offset,string)**
 
-![Segunda ejecusión del test] (Images - README/2do_test.png)
+![Segunda ejecusión del test] (Images-README/2do_test.png)
 
 ### Tercera ejecusión del test.
 
@@ -99,7 +99,7 @@ Se solucionó el TypeError ingresado, inicialmente se había considerado una igu
 
 En esta tercera ejecusión, se pudo cumplir con todos los requisitos del test.
 
-![Tercera ejecusión del test] (Images - README/3er_test.png)
+![Tercera ejecusión del test] (Images-README/3er_test.png)
 
 ## 6. Resultados
 
@@ -107,7 +107,7 @@ En esta tercera ejecusión, se pudo cumplir con todos los requisitos del test.
 
 Finalmente, luego de las correcciones implementadas en el código y en la tercera ejecusión del test se obtuvo un 93.33% de statements, 100% functions, 92.85% lines, y un mínimo del 71.42% de branches.
 
-![Resultados del test] (Images - README/Resultados_test.png)
+![Resultados del test] (Images-README/Resultados_test.png)
 
 ### Resultado del producto final
 
