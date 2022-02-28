@@ -4,6 +4,9 @@ window.addEventListener("load", inicio, true);
 
 //Mayúsculas
 function inicio() {
+    // let a= document.getElementById("options__menu").children;
+    // console.log("holi2",a);
+
     document.getElementById("text").addEventListener("keyup", function () {
         this.value = this.value.toUpperCase(); //con this llamo al elemento que previamente he llamado (text)
     }, true);
@@ -21,6 +24,5 @@ function inicio() {
     }, true);
 
 }
-
 
 console.log('cipher');

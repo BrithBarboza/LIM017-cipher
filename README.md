@@ -54,8 +54,8 @@ Inicialmente en el prototipado se consideró un menú lateral y se consideraron 
 * La página de inicio: En la barra del menú con las opciones Inicio, Cifrado, Tutorial y un inicio de sesión.
 * La ventana del cifrado: Se consideró colocar por defecto 3 opciones para el ingreso del texto a cifrar (16, 24 y 32 caracteres).
 
-![primer boceto a mano] (Images - README/inicio-primera pestaña.jpeg)
-![primer boceto a mano] (Images - README/inicio-segunda pestaña.jpeg)
+![primer boceto a mano](Images - README/inicio-primera pestaña.jpeg)
+![primer boceto a mano](Images - README/inicio-segunda pestaña.jpeg)
 
 ### Segunda propuesta
 

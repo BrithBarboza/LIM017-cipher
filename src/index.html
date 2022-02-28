@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cifrado César</title>
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script type="module" src="index.js"></script>
 
   <script src="https://kit.fontawesome.com/77b1f291ae.js" crossorigin="anonymous"></script>
 </head>
@@ -21,7 +20,7 @@
       <h4>Cifrado César</h4>
     </div>
 
-    <div class="options__menu">
+    <div class="options__menu" id="options__menu">
       <a href="#section__0">
         <div class="option">
           <i class="fas fa-home" tittle="Inicio"></i>
@@ -45,7 +44,7 @@
     </div>
   </div>
 
-  <main class="section__0" id="section__0">
+  <main class="section__0 visible" id="section__0">
     <h2>¿Qué es el cifrado César?</h2><br><br>
     <div class="tab1">
       <div class="parrafo_1">
@@ -79,7 +78,7 @@
     </div>
   </main>
 
-  <main class="section__1" id="section__1">
+  <main class="section__1 invisible" id="section__1">
     <h2>
       <center>Empieza a cifrar tu comentario</center>
     </h2><br><br><br>
@@ -113,6 +112,7 @@
     </div>
   </main>
 
+  <script type="module" src="index.js"></script>
 </body>
 
 </html>

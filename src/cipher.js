@@ -16,7 +16,7 @@ const cipher = {
                     let posicion = ((alphabet.indexOf(string[i]) + offset) % 26);//aquí guardo la posición de la letra que ingreso
                     result += alphabet[posicion];
                 }
-                else { result += string[i]; }
+                else { result += string[i];}
             }
         }
         return result;

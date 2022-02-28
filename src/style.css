@@ -121,6 +121,13 @@
         padding: 25px;
     }
 
+    /* .visible{
+        display: block;
+    }
+
+    .invisible{
+        display: none;
+    } */
 
     .tab1{
         display: flex;
