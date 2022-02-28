@@ -1,14 +1,118 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifrado César</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <script type="module" src="index.js"></script>
+
+  <script src="https://kit.fontawesome.com/77b1f291ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body id="body">
+  <header>Desarrollado por Briggtte Barboza</header>
+
+  <div class="menu__side" id="menu_side">
+
+    <div class="name__page">
+      <h4>Cifrado César</h4>
     </div>
-    <script src="index.js" type="module"></script>
-  </body>
+
+    <div class="options__menu">
+      <a href="#section__0">
+        <div class="option">
+          <i class="fas fa-home" tittle="Inicio"></i>
+          <h4>Inicio</h4>
+        </div>
+      </a>
+
+      <a href="#section__1">
+        <div class="option">
+          <i class="fas fa-key" tittle="Cifrado"></i>
+          <h4>Cifrado</h4>
+        </div>
+      </a>
+
+      <a href="#">
+        <div class="option">
+          <i class="fas fa-book-open" tittle="Tutorial"></i>
+          <h4>Tutorial</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <main class="section__0" id="section__0">
+    <h2>¿Qué es el cifrado César?</h2><br><br>
+    <div class="tab1">
+      <div class="parrafo_1">
+        <p>Un cifrado César es una de las técnicas de cifrado más simples y conocidas.</p><br>
+
+        <p>Lleva el nombre de Julio César, es uno de los tipos de cifrados más antiguos y se basa en el cifrado
+          monoalfabético más simple. Se considera un método débil de criptografía, ya que es fácil decodificar el
+          mensaje debido a sus técnicas de seguridad mínimas.</p><br>
+
+        <p>Por la misma razón, un cifrado César a menudo se incorpora solo en partes de otros esquemas de cifrado
+          complejos.</p>
+
+        <p>En criptografía, un cifrado César se clasifica como un cifrado por sustitución en el que el alfabeto en el
+          texto plano se desplaza por un número fijo en el alfabeto.</p><br>
+
+        <p>Las ventajas de usar un cifrado César incluyen:</p><br>
+
+        <p>Uno de los métodos más fáciles de usar en criptografía y puede proporcionar una seguridad mínima a la
+          información.</p><br>
+        <p>Uso de solo una tecla breve en todo el proceso.
+          Uno de los mejores métodos para usar si el sistema no puede usar ninguna técnica de codificación complicada
+          Requiere pocos recursos informáticos</p><br>
+
+        <p>Las desventajas de usar un cifrado César incluyen:</p><br>
+
+        <p>Uso de estructura simple</p><br>
+        <p>Solo puede proporcionar seguridad mínima a la información</p><br>
+        <p>La frecuencia del patrón de letras proporciona una gran pista para descifrar el mensaje completo</p><br>
+      </div>
+      <div class="imagen_1"><img src="Imagenes/inicio.png"></div>
+    </div>
+  </main>
+
+  <main class="section__1" id="section__1">
+    <h2>
+      <center>Empieza a cifrar tu comentario</center>
+    </h2><br><br><br>
+    <div class="tab2">
+      <div id="form2">
+        <div id="parrafo_2"></div>
+        <p>Ahora que conoces de qué trata el cifrado César, es momento de usarlo para calificar el servicio que
+          recibiste
+          en el Centro comercial.</p><br>
+        <p>Recuerda que el comentario que ingreses será de manera anónima y segura.</p><br>
+
+        <p>Por favor, ingresa un comentario para calificar tu visita al centro comercial “El rápido” el día 26 de enero
+          del 2022 a las 16:00 hs.</p><br>
+        <div class="imagen_2"><img src="Imagenes/centro-comercial.jpg"></div>
+      </div>
+
+      <div id="form3">
+        <label>Ingresa el comentario a cifrar:</label><br>
+        <input type="text" name="text" id="text" placeholder="Ingresa el mensaje a cifrar" value=""
+          class="mensaje"><br><br><br>
+
+        <label>Elije el desplazamiento</label>&nbsp;
+        <input type="number" id="offset" size="4" class="desplazamiento"> <br> <br>
+
+        <input type="button" id="btn1" value="Cifrar" class="btn__cifrar"> &nbsp; &nbsp; &nbsp;
+        <input type="button" id="btn2" value="Descifrar" class="btn__descifrar"><br>
+
+        <label>Comentario cifrado:</label><br>
+        <input type="text" name="text" id="text2" placeholder="" value="" class="mensaje2">
+      </div>
+    </div>
+  </main>
+
+</body>
+
 </html>
