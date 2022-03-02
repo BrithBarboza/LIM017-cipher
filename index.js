@@ -2,11 +2,32 @@ import cipher from './cipher.js';
 
 window.addEventListener("load", inicio, true);
 
-//Mayúsculas
 function inicio() {
-    // let a= document.getElementById("options__menu").children;
-    // console.log("holi2",a);
 
+    let menu = document.getElementsByClassName("option")
+    for (let i = 0; i < menu.length; i++) {
+        menu[i].addEventListener("click", function () {
+
+            const index = Array.from(document.getElementById("options__menu").children).indexOf(menu[i]);
+
+            switch (index) {
+                case 0:
+                    document.getElementById("section__0").classList.add("visible");
+                    document.getElementById("section__1").classList.remove("visible");
+                    break
+                case 1:
+                    document.getElementById("section__0").classList.remove("visible");
+                    document.getElementById("section__1").classList.add("visible");
+                    break
+                default:
+                    document.getElementById("section__0").classList.remove("visible");
+                    document.getElementById("section__1").classList.remove("visible");
+                    break
+            }
+        })
+    };
+
+    //Mayúsculas
     document.getElementById("text").addEventListener("keyup", function () {
         this.value = this.value.toUpperCase(); //con this llamo al elemento que previamente he llamado (text)
     }, true);

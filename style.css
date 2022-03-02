@@ -40,7 +40,6 @@
         position: absolute;
     }
 
-
     .menu__side{
         /*width: 80px;*/
         height: 100%;
@@ -119,15 +118,8 @@
     .section__0{
         text-align: center;
         padding: 25px;
-    }
-
-    /* .visible{
-        display: block;
-    }
-
-    .invisible{
         display: none;
-    } */
+    }
 
     .tab1{
         display: flex;
@@ -149,7 +141,12 @@
     .section__1{
         text-align: justify;
         padding: 25px;
+        display: none;
         
+    }
+
+    .visible{
+        display: block;
     }
 
     .tab2{
